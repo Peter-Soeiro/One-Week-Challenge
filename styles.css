@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222831;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+main {
+  max-width: 100%;
+  margin: 0 auto 50px;
+  align-items: center;
+  width: 805px;
+  font-size: 0;
+}
+
+input {
+  color: #eeeeee;
+  font-weight: 500;
+  font-size: 1.7rem;
+  text-align: center;
+  border: 1px solid #919191;
+  background-color: #2e3239;
+  max-width: 100%;
+  height: 40px;
+  width: 805px;
+  border-radius: 10px 10px 0 0;
+  padding-bottom: 0.2rem;
+}
+
+span {
+  color: #eeeeee;
+  font-weight: 600;
+  font-size: 0.9rem;
+  display: block;
+  position: absolute;
+  top: 2px;
+  left: 0;
+  right: 0;
+  margin: 3px auto 0;
+  opacity: 0.999;
+}
+
+hr {
+  margin-top: 3px;
+}
+
+.setChallenge {
+  font-weight: 600;
+  font-size: 4rem;
+  color: #00adb5;
+  border: none;
+  background-color: transparent;
+  margin: 100px auto;
+}
+
+.btn {
+  position: relative;
+  height: 110px;
+  width: 115px;
+  border: 1px solid #919191;
+  background-color: #393e46;
+  border-radius: 0;
+}
+
+.copyright {
+  font-weight: normal;
+  font-size: 0.8rem;
+  color: #eaf6f6;
+}
+
+.weekend {
+  background-color: #353a41;
+}
+
+.pressed1 {
+  background-color: #00adb5;
+}
+
+.pressed2 {
+  background-color: #fc5185;
+}
+
+.lc {
+  border-radius: 0 0 0 10px;
+}
+
+.rc {
+  border-radius: 0 0 10px 0;
+}
