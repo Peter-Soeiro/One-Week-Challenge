@@ -23,8 +23,7 @@ for (var i = 0; i < days.length; i++) {
 
 // ckecks if a button is pressed and toggles the class .pressed
 for (var i = 0; i < document.querySelectorAll(".btn").length; i++) {
-
-  document.querySelectorAll(".btn")[i].addEventListener("click", function() {
+  document.querySelectorAll(".btn")[i].addEventListener("click", function () {
     var pressedButton = document.querySelector("." + this.classList[0]);
 
     if (pressedButton.classList.contains("pressed1")) {
